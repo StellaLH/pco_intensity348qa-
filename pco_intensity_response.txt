@@ -18,3 +18,4 @@ y-pixel location
 
 third element:
 python range (0, 2059)
+x-pixel location
