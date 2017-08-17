@@ -1,0 +1,20 @@
+***********************************************************
+pco_intensity_response.npy
+***********************************************************
+Open with numpy:
+
+matrix=np.load('pco_intensity_response.npy')
+matrix.shape= (3,2048,2060)
+***********************************************************
+first element:
+python range (0,2)
+0 == intercept of count/filter value fit
+1 == gradient of count/ filter value fit
+2 == correlation coefficient of count/filter value fit
+
+second element:
+python range (0,2047)
+y-pixel location
+
+third element:
+python range (0, 2059)
